@@ -5,6 +5,7 @@
   "main": "dist/app.js",
   "source": "app.js",
   "scripts": {
+    "install:build": "pnpm i && pnpm build",
     "build": "microbundle",
     "dev": "microbundle watch",
     "start": "node dist/app.cjs"
